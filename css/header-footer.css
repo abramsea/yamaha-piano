@@ -1,0 +1,178 @@
+/* header */
+
+.header {
+    background: #fff;
+}
+
+.logo-pult {
+   width: 350px;
+   margin-left: 100px;
+   padding: 10px;
+   display: inline-block;
+}
+
+
+.nav {
+    display: flex;
+    border-top: 1px solid #c1c1c1;
+}
+
+.nav a {
+    color: #343741;
+    text-align: center;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 3px solid #fff;
+    text-decoration: none;
+    margin: auto;
+}
+
+.blue {
+    color: #4cc7e9;
+}
+
+.nav a:hover {
+    border-bottom: 3px solid #4cc7e9;
+    color: #4cc7e9;
+}
+
+.nav .icon {
+    display: none;
+}
+
+
+
+
+/* footer */
+
+
+
+.footer{
+    background: #000000;
+    padding: 100px;
+    text-align: center;
+}
+
+.footer p {
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+    color: #fff;
+}
+
+.logo_bottom {
+    width: 120px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.links {
+    margin-top: 30px;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;  
+  transition: all 0.2s;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+.links a:first-of-type {
+    border-right: 1px solid #f2f2f2;
+}
+
+.links a:hover {
+    color: #4cc7e9;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 690px) {
+    .logo-pult {
+        display: block;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .nav a {
+        display: none;
+    }
+
+    .nav{
+        display: block;
+        text-align: center;
+    }
+
+    .nav a.icon {
+        float: right;
+        margin-top: -70px;
+        display: block;
+        font-size: 25px;
+        border: none;
+    }
+
+    .nav.responsive {
+        position: relative;
+        /* top: 50px; */
+    }
+
+    .header .nav.responsive {
+        height: 100px;
+    }
+
+    .nav.responsive a.icon {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .nav.responsive a {
+        float: none;
+        display: inline-block;
+        /* text-align: right; */
+        border: none;
+    }
+
+    .nav a:hover {
+        border: none;
+    }
+
+    .nav .icon {
+        display: block;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .links a {
+        font-size: 16px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 420px) {
+    .logo-pult {
+        max-width: 250px;
+    }
+
+    .nav a.icon {
+        margin-top: -60px;
+    }
+}
+
+
+
+
