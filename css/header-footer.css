@@ -204,6 +204,18 @@
 
 }
 
+@media screen and (max-width: 690px) {
+    .footer {
+        padding: 30px;
+    }
+
+    .links a {
+        font-size: 16px;
+    } 
+}
+
+
+
 
 @media screen and (max-width: 500px) {
     .logo-pult {
