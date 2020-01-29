@@ -72,7 +72,7 @@
     font-size: 39px;
     font-family: 'GraphikLCG-Light', Arial, Helvetica, sans-serif;
     font-weight: 200;
-    margin: 140px auto 24px auto;
+    margin: 155px auto 24px auto;
     color: #fff;
 }
 
@@ -218,14 +218,16 @@
 
 
 @media screen and (max-width: 500px) {
+
+    .logo-container a.icon {
+        font-size: 35px;
+        margin: 5px 5px 0 0;
+    }
+
     .logo-pult {
         width: 100px;
     }
 
-    .logo-container a.icon {
-        font-size: 18px;
-        margin: 18px 15px 0 0;
-    }
 
     .hidden {
         display: none;
